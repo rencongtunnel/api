@@ -25,7 +25,7 @@ Method : `POST`
 
 
 Contoh penggunaan menggunakan cURL (Linux Command)
-
+```
 curl -X POST \
   -H "Content-type: application/json" \
   -H "Authorization: Bearer rencongtunnel" \
@@ -36,7 +36,7 @@ curl -X POST \
     "expired": "30"
   }' \
   http://localhost:3000/api/sshvpn
-
+```
 
 **Catatan**
 
