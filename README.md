@@ -58,20 +58,15 @@ Method : `POST`
 |Protocol|Path|expired|
 |--|--|--|
 |SSH/OpenVPN|/api/trialsshvpn|✅|
+|VMess|/api/trialvmess|✅|
+|VLess|/api/trialvless|✅|
+|Trojan|/api/trialtrojan|✅|
+|Shadowsocks|/api/trialshadowsocks|✅|
+|Shadowsocks22|/api/trialshadowsocks22|✅|
+|Socks5|/api/trialsocks5|✅|
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+**Catatan**
+- Untuk trial menggunakan sistem menit ! tidak lebih 24 Jam Reset jam 00:00 !!!  
 
 ## Response
 
