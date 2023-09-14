@@ -22,7 +22,7 @@ Method : `POST`
 |Protocol|Path|APIKey|username|password|limitip|bug|quota|expired|
 |--|--|--|--|--|--|--|--|--|
 |SSH/OpenVPN|/api/sshvpn|✅|✅|✅|✅|⛔️|⛔️|✅|
-|VMess WS|/api/vmessws|✅|⛔️|✅|✅|✅|⛔️|✅|
+|VMess WS|/api/vmessws|✅|✅|⛔️|✅|✅|✅|✅|
 
 Contoh penggunaan menggunakan cURL (Linux Command)
 ```
