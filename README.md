@@ -19,7 +19,7 @@ Contoh :
 
 Method : `POST`
 
-|Tunnel|Path|APIKey|username|password|limitip|expired|
+|Protocol|Path|APIKey|username|password|limitip|expired|
 |--|--|--|--|--|--|--|
 |SSH/OpenVPN|/api/sshvpn|✅|✅|✅|✅|✅|
 
@@ -33,7 +33,7 @@ curl -X POST \
     "username": "rencongtunnel",
     "password": "rencongtunnel",
     "limitip": 1,
-    "expired": "30"
+    "expired": 30
   }' \
   http://localhost:3000/api/sshvpn
 ```
