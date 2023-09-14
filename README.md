@@ -19,10 +19,10 @@ Contoh :
 
 Method : `POST`
 
-|Protocol|Path|APIKey|username|password|limitip|quota|expired|
-|--|--|--|--|--|--|--|--|
-|SSH/OpenVPN|/api/sshvpn|✅|✅|✅|✅|⛔️|✅|
-
+|Protocol|Path|APIKey|username|password|limitip|bug|quota|expired|
+|--|--|--|--|--|--|--|--|--|
+|SSH/OpenVPN|/api/sshvpn|✅|✅|✅|✅|⛔️|⛔️|✅|
+|VMess WS|/api/vmessws|✅|⛔️|✅|✅|⛔️|⛔️|✅|
 
 Contoh penggunaan menggunakan cURL (Linux Command)
 ```
@@ -44,7 +44,7 @@ curl -X POST \
 
 ⛔️ - Tidak digunakan
 
-## Response
+## Response SSH
 ```
 {
     "status": "success",
@@ -76,6 +76,30 @@ curl -X POST \
     "payload": {
         "cdn": "GET / HTTP/1.1[crlf]Host: rencongtunnel.com[crlf]Upgrade: websocket[crlf][crlf]",
         "wss": "GET wss://BUG.COM/ HTTP/1.1[crlf]Host: rencongtunnel.com[crlf]Upgrade: websocket[crlf][crlf]"
+    }
+}
+```
+
+## Response XRAY
+```
+{
+    "status": "success",
+    "hostname": "rencongtunnel.com",
+    "isp": "Rencong Tunnel Technology Co., Ltd.",
+    "city": "Indonesia",
+    "username": "rencongtunnel",
+    "expired": "2023-10-14",
+    "uuid": "b62463df-864e-49be-b898-8dea71a90024",
+    "port": {
+        "tls": "443",
+        "none": "80"
+    },
+    "path": {
+        "default": "/vmess"
+    },
+    "link": {
+        "tls": "vmess://ICAgICAgewogICAgICAidiI6ICIyIiwKICAgICAgInBzIjogInJlbmNvbmd0dW5uZWwiLAogICAgICAiYWRkIjogInNpZ2xpcGFuZWwuY29tIiwKICAgICAgInBvcnQiOiAiIiwKICAgICAgImlkIjogImI2MjQ2M2RmLTg2NGUtNDliZS1iODk4LThkZWE3MWE5MDAyNCIsCiAgICAgICJhaWQiOiAiMCIsCiAgICAgICJuZXQiOiAid3MiLAogICAgICAicGF0aCI6ICIvdm1lc3MiLAogICAgICAidHlwZSI6ICJub25lIiwKICAgICAgImhvc3QiOiAic2lnbGlwYW5lbC5jb20iLAogICAgICAic25pIjogInJlbmNvbmd0dW5uZWwuY29tIiwKICAgICAgInRscyI6ICJ0bHMiCn0K",
+        "none": "vmess://ICAgICAgewogICAgICAidiI6ICIyIiwKICAgICAgInBzIjogInJlbmNvbmd0dW5uZWwiLAogICAgICAiYWRkIjogInJlbmNvbmd0dW5uZWwuY29tIiwKICAgICAgInBvcnQiOiAiIiwKICAgICAgImlkIjogImI2MjQ2M2RmLTg2NGUtNDliZS1iODk4LThkZWE3MWE5MDAyNCIsCiAgICAgICJhaWQiOiAiMCIsCiAgICAgICJuZXQiOiAid3MiLAogICAgICAicGF0aCI6ICIvdm1lc3MiLAogICAgICAidHlwZSI6ICJub25lIiwKICAgICAgImhvc3QiOiAic2lnbGlwYW5lbC5jb20iLAogICAgICAic25pIjogInNpZ2xpcGFuZWwuY29tIiwKICAgICAgInRscyI6ICJub25lIgp9Cg=="
     }
 }
 ```
