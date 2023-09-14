@@ -86,7 +86,6 @@ Success
 Failed
 ```
 {
-    "ok": false,
-    "description": "Error Message"
+    "status": "error"
 }
 ```
