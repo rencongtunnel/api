@@ -71,7 +71,7 @@ curl -X POST \
         "squid1": 3128,
         "squid2": 8000,
         "squid3": 8080,
-        "badvpnudp": "7100, 7300, 7300",
+        "badvpnudp": "7100, 7300, 7300"
     },
     "payload": {
         "cdn": "GET / HTTP/1.1[crlf]Host: rencongtunnel.com[crlf]Upgrade: websocket[crlf][crlf]",
