@@ -25,6 +25,10 @@ Method : `POST`
 |VMess|/api/vmess|✅|✅|⛔️|✅|✅|✅|
 |VLess|/api/vless|✅|✅|⛔️|✅|✅|✅|
 |Trojan|/api/trojan|✅|✅|⛔️|✅|✅|✅|
+|Shadowsocks|/api/shadowsocks|✅|✅|⛔️|✅|✅|✅|
+|Shadowsocks22|/api/shadowsocks22|✅|✅|⛔️|✅|✅|✅|
+|Socks5|/api/socks5|✅|✅|✅|✅|✅|✅|
+
 
 Contoh penggunaan menggunakan cURL (Linux Command)
 ```
