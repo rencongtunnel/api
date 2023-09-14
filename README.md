@@ -19,9 +19,9 @@ Contoh :
 
 Method : `POST`
 
-|Protocol|Path|APIKey|username|password|limitip|expired|
-|--|--|--|--|--|--|--|
-|SSH/OpenVPN|/api/sshvpn|✅|✅|✅|✅|✅|
+|Protocol|Path|APIKey|username|password|limitip|quota|expired|
+|--|--|--|--|--|--|--|--|
+|SSH/OpenVPN|/api/sshvpn|✅|✅|✅|✅|⛔️|✅|
 
 
 Contoh penggunaan menggunakan cURL (Linux Command)
@@ -41,4 +41,4 @@ curl -X POST \
 **Catatan**
 
 ✅ - Diperlukan
-
+⛔️ - Tidak digunakan
