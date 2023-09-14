@@ -23,6 +23,8 @@ Method : `POST`
 |--|--|--|--|--|--|--|--|
 |SSH/OpenVPN|/api/sshvpn|✅|✅|✅|✅|⛔️|✅|
 |VMess|/api/vmess|✅|✅|⛔️|✅|✅|✅|
+|VLess|/api/vless|✅|✅|⛔️|✅|✅|✅|
+|Trojan|/api/trojan|✅|✅|⛔️|✅|✅|✅|
 
 Contoh penggunaan menggunakan cURL (Linux Command)
 ```
