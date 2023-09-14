@@ -50,6 +50,29 @@ curl -X POST \
 
 ⛔️ - Tidak digunakan
 
+
+## Trial
+
+Method : `POST`
+
+|Protocol|Path|expired|
+|--|--|--|
+|SSH/OpenVPN|/api/trialsshvpn|✅|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Response
 
 Success
