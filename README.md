@@ -84,6 +84,22 @@ Method : `POST`
 **Catatan**
 - Untuk trial menggunakan sistem menit ! tidak lebih 24 Jam Reset jam 00:00 !!!  
 
+
+## Delete
+
+Method : `DELETE`
+
+|Protocol|Path|username|
+|--|--|--|
+|SSH/OpenVPN|/api/deletesshvpn|✅|
+|VMess|/api/deletevmess|✅|
+|VLess|/api/deletevless|✅|
+|Trojan|/api/deletetrojan|✅|
+|Shadowsocks|/api/deleteshadowsocks|✅|
+|Shadowsocks22|/api/deleteshadowsocks22|✅|
+|Socks5|/api/deletesocks5|✅|
+
+
 ## Response
 
 Success
