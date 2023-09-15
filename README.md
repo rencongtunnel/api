@@ -1,7 +1,23 @@
-
 # Rencong Tunnel API
 
-API Key : `Bearer rencongtunnel`
+## Configuration
+
+File konfigurasi
+
+    /etc/rencongtunnel/.env
+    
+## Access
+
+Melihat Port dan API Key
+
+    cat /etc/rencongtunnel/.env
+
+Output
+
+    APIKEY=2b28e25a-4003-4326-bf92-c20e42d02d45
+    LISTEN_PORT=3000
+
+API Key : `2b28e25a-4003-4326-bf92-c20e42d02d45 `
 
 API Port : `3000`
 
@@ -34,7 +50,7 @@ Contoh penggunaan menggunakan cURL (Linux Command)
 ```
 curl -X POST \
   -H "Content-type: application/json" \
-  -H "Authorization: Bearer rencongtunnel" \
+  -H "Authorization: Bearer 2b28e25a-4003-4326-bf92-c20e42d02d45" \
   -d '{
     "username": "rencongtunnel",
     "password": "rencongtunnel",
