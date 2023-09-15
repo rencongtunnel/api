@@ -106,16 +106,17 @@ Success
 
 ```
 {
-    "status": "success",
-    "hostname": "127.0.0.1",
-    "isp": "Rencong Tunnel Technology Co., Ltd.",
-    "city": "Indonesia",
+    "status": true,
+    "message": "Create Account Success !",
+    "hostname": "47.254.76.110",
+    "isp": "Alibaba (US) Technology Co., Ltd.",
+    "city": "San Jose",
     "username": "rencongtunnel",
-    "servername": "ns.rencongtunnel.com",
-    "pubkey": "9c4aca7ea739d70140aeae19f6fb85244f619cc6be4dcc6362e5dcb4ddca3638",
+    "servername": "mqq3gvs.ghosts.my.id",
+    "pubkey": "4dda98891f5f753df06f4ed3929f936649ec2f7a06d65e7c884787f5badacc6d",
     "password": "rencongtunnel",
-    "exp": "Oct 14, 2023",
-    "ovpn": "https://rencongtunnel.com:81/all-ovpn.zip",
+    "exp": "Sep 18, 2023",
+    "ovpn": "https://uk.ghosts.my.id:81/all-ovpn.zip",
     "port": {
         "openssh": "443, 80, 22",
         "dropbear": "443, 109",
@@ -133,8 +134,8 @@ Success
         "badvpnudp": "7100, 7300, 7300"
     },
     "payload": {
-        "cdn": "GET / HTTP/1.1[crlf]Host: rencongtunnel.com[crlf]Upgrade: websocket[crlf][crlf]",
-        "wss": "GET wss://BUG.COM/ HTTP/1.1[crlf]Host: rencongtunnel.com[crlf]Upgrade: websocket[crlf][crlf]"
+        "cdn": "GET / HTTP/1.1[crlf]Host: uk.ghosts.my.id[crlf]Upgrade: websocket[crlf][crlf]",
+        "wss": "GET wss://BUG.COM/ HTTP/1.1[crlf]Host: uk.ghosts.my.id[crlf]Upgrade: websocket[crlf][crlf]"
     }
 }
 ```
